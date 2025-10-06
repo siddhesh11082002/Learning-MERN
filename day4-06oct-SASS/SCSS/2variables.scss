@@ -1,0 +1,19 @@
+//define colors
+
+$primary-color: #b19df5;
+$button-color: #1dff0d;
+$font-stack : 'Courier New', Courier, monospace ;
+$padding-size: 20px;
+
+body{
+    background-color: $primary-color;
+    font-family: $font-stack ;
+    padding: $padding-size ;
+}
+
+button{
+    background-color: $button-color;
+    color: black;
+    padding: $padding-size/2 $padding-size;
+    border-radius: 1rem;
+}

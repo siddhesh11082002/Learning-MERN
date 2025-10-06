@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color {
+  height: 100px;
+  width: 200px;
+  background-color: #62d0c2;
+  border-radius: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.light {
+  background-color: rgb(137.25, 219.75, 209.25);
+}
+
+.dark {
+  background-color: rgb(58.75, 196.25, 178.75);
+}
+
+.saturated {
+  background-color: rgb(87.8, 218.2, 201.6036363636);
+}
+
+.desaturated {
+  background-color: rgb(108.2, 197.8, 186.3963636364);
+}
+
+.fade-in {
+  background-color: #62d0c2;
+}
+
+.fade-out {
+  background-color: rgba(98, 208, 194, 0.9);
+}
+
+.invert {
+  background-color: #9d2f3d;
+}
+
+.light {
+  background-color: #d06270;
+}/*# sourceMappingURL=3colorFunction.css.map */

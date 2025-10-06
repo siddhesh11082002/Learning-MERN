@@ -1,0 +1,24 @@
+@function double-size($size){
+    @return $size*2
+}
+
+.box{
+    width: double-size(150px);
+    height: double-size(50px);
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 20, 75);
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: 2px solid rgb(60, 255, 0);
+    box-shadow: 1px 1px 1px green;
+
+    transition: all ease 1s;
+
+    &:hover{
+        box-shadow: 1px 1px 15px green;
+    }
+}

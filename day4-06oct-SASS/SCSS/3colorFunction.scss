@@ -1,0 +1,49 @@
+$baseColor : #62d0c2;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color{
+    height: 100px;
+    width: 200px;
+    background-color: $baseColor;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.light{
+    background-color:lighten($baseColor,10%);
+}
+
+.dark{
+    background-color:darken($baseColor,10%);
+}
+
+.saturated{
+    background-color:saturate($baseColor,10%);
+}
+
+.desaturated{
+    background-color:desaturate($baseColor,10%);
+}
+
+.fade-in{
+    background-color:fade_in($baseColor,0.1);
+}
+
+.fade-out{
+    background-color:fade_out($baseColor,0.1);
+}
+
+.invert{
+    background-color:invert($baseColor);
+}
+
+.light{
+    background-color:complement($baseColor);
+}
