@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malvani Bites - Order Food (Bootstrap)</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* We can keep some minor custom styles to override or add to Bootstrap */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa; /* A standard light gray from Bootstrap */
+        }
+        .card-img-top {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Ensures images look good */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container my-5">
+        <header class="text-center mb-5">
+            <h1 class="display-4 text-danger">Malvani Bites</h1>
+            <p class="lead">Authentic Flavors of the Konkan Coast</p>
+        </header>
+
+        <main>
+            <section id="menu">
+                <h2 class="text-center mb-4 pb-2 border-bottom border-warning">Our Menu</h2>
+                
+                <div class="row g-4">
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1604152163211-3269f8bf0131?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Kombdi Vade">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Kombdi Vade</h5>
+                                <p class="card-text flex-grow-1">The heart of Malvani cuisine! A rich, spicy chicken curry served with fluffy, deep-fried vade bread.</p>
+                                <p class="h4 fw-bold text-success">₹520</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1626776211326-b3711d59648c?q=80&w=1974&auto=format&fit=crop" class="card-img-top" alt="Surmai Fry">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Surmai Fry</h5>
+                                <p class="card-text flex-grow-1">A thick slice of fresh Kingfish, marinated in Malvani masala and fried to a crispy perfection.</p>
+                                <p class="h4 fw-bold text-success">₹580</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1606524347132-a58b8b8f2c68?q=80&w=1974&auto=format&fit=crop" class="card-img-top" alt="Bombil Fry">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Bombil Fry</h5>
+                                <p class="card-text flex-grow-1">Crispy on the outside, tender on the inside. Bombay Duck coated in rice flour and spices, then shallow-fried.</p>
+                                <p class="h4 fw-bold text-success">₹350</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1599974579688-85a33a2267b2?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="Mutton Sukka">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Mutton Sukka</h5>
+                                <p class="card-text flex-grow-1">Tender mutton pieces slow-cooked in a thick, dry gravy of roasted coconut and a blend of fiery spices.</p>
+                                <p class="h4 fw-bold text-success">₹550</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1602882196652-f43c37e96b99?q=80&w=1943&auto=format&fit=crop" class="card-img-top" alt="Malvani Fish Curry">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Malvani Fish Curry</h5>
+                                <p class="card-text flex-grow-1">A tangy and spicy curry made with fresh pomfret, coconut, and kokum, capturing the true taste of the coast.</p>
+                                <p class="h4 fw-bold text-success">₹480</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                             <img src="https://images.unsplash.com/photo-1571732684133-786d7c775798?q=80&w=1935&auto=format&fit=crop" class="card-img-top" alt="Solkadhi">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Solkadhi</h5>
+                                <p class="card-text flex-grow-1">A refreshing and digestive drink made from coconut milk and kokum. The perfect cool-down for a spicy meal.</p>
+                                <p class="h4 fw-bold text-success">₹120</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="mt-5 pt-4">
+                 <div class="row g-5">
+                    <div class="col-lg-5">
+                        <h2 class="mb-4">Place Your Order</h2>
+                        <div class="p-4 bg-white rounded-3 shadow-sm">
+                            <form id="foodOrderForm">
+                                <div class="mb-3">
+                                    <label for="customerName" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="customerName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="tableNumber" class="form-label">Table Number</label>
+                                    <input type="number" class="form-control" id="tableNumber" min="1" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="dishSelect" class="form-label">Select Dish</label>
+                                    <select class="form-select" id="dishSelect" required>
+                                        <option value="">-- Choose a dish --</option>
+                                        <option value="Kombdi Vade">Kombdi Vade</option>
+                                        <option value="Surmai Fry">Surmai Fry</option>
+                                        <option value="Bombil Fry">Bombil Fry</option>
+                                        <option value="Mutton Sukka">Mutton Sukka</option>
+                                        <option value="Malvani Fish Curry">Malvani Fish Curry</option>
+                                        <option value="Solkadhi">Solkadhi</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="quantity" class="form-label">Quantity</label>
+                                    <input type="number" class="form-control" id="quantity" min="1" value="1" required>
+                                </div>
+                                <button type="submit" class="btn btn-danger w-100 btn-lg">Add to Orders</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-7">
+                        <h2 class="mb-4">Current Orders</h2>
+                        <div class="p-4 bg-white rounded-3 shadow-sm">
+                            <table class="table table-striped table-hover">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Quantity</th>
+                                        <th>Table No.</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ordersTableBody">
+                                    <tr id="no-orders-msg">
+                                        <td colspan="3" class="text-center text-muted">No orders yet. Place an order to see it here!</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const orderForm = document.getElementById('foodOrderForm');
+            const ordersTableBody = document.getElementById('ordersTableBody');
+            
+            orderForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+
+                // This logic is identical to the previous version!
+                const noOrdersMsg = document.getElementById('no-orders-msg');
+                const tableNumber = document.getElementById('tableNumber').value;
+                const dish = document.getElementById('dishSelect').value;
+                const quantity = document.getElementById('quantity').value;
+
+                if (!tableNumber || !dish || !quantity) {
+                    alert('Please fill out all fields.');
+                    return;
+                }
+                
+                if(noOrdersMsg) {
+                    noOrdersMsg.remove();
+                }
+
+                const newRow = document.createElement('tr');
+                newRow.innerHTML = `
+                    <td>${dish}</td>
+                    <td>${quantity}</td>
+                    <td>${tableNumber}</td>
+                `;
+
+                ordersTableBody.appendChild(newRow);
+                orderForm.reset();
+            });
+        });
+    </script>
+</body>
+</html>

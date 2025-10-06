@@ -1,0 +1,146 @@
+Objective: Create a food ordering UI for a restaurant website.
+
+✅Concepts Used:
+Typography: Menu heading, styled food categories, list of popular dishes
+Grid: Layout for menu items (e.g., 3-column food grid)
+Form: Order form (Name, Table No, Select Dish, Quantity)
+Table: Table showing "Current Orders" with item, quantity, and table number
+ 
+ 
+BOOTSTRAP 3
+ 
+-> Front end framework which is used for creating responsive designs 
+
+-> Responsive designs 
+>> screen size 
+
+-> pre defined CSS classes , JS components
+
+-> developed by Twitter Engineers 
+
+-> Grid System
+ 
+ 
+INSTALLING BOOTSTRAP
+ 
+-> npm install bootstrap
+ 
+CDN
+ 
+-> link, script >> add in HTML
+ 
+>> BOOTSTRAP
+ 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+...................................................................
+ 
+GRID System
+ 
+-> FEXBOX BASED LAYOUT System
+
+-> 12 equal columns
+ 
+class prefix     screen size 
+
+.col-sm             >=576 px 
+
+.col-md             >=768px 
+
+.col-lg             >=992px 
+
+.col-xl             >=1200px 
+
+.col-xxl            >=1400px
+ 
+ 
+..........................................................
+ 
+CONTAINER
+ 
+-> base layout wrapper in bootstrap
+ 
+ 
+-> class = 'container' 
+
+        - fixed width container 
+
+        - width changes depending on the screen size
+ 
+-> class = 'container-fluid'
+
+        - 100% width , entire screen
+ 
+........................................................
+ 
+BOOTSTRAP TYPOGRAPHY
+ 
+-> style text , headings , alignment , colors ....
+ 
+HEADING
+ 
+h1,h2......h6
+ 
+<p class='h1'></p>
+ 
+ 
+.........................
+ 
+Transformation
+ 
+text-uppercase 
+
+text-lowercase
+
+text-capitalize
+ 
+..........
+ 
+list
+ 
+Unstyled List >> list-unstyled 
+
+Inline style >> list-inline       item1 item2 item3
+ 
+ 
+item1
+
+item2
+
+item3
+ 
+...............
+ 
+text-primary  , text-success  , text-danger , text-white
+ 
+..............................................................
+ 
+BOOTSTRAP TABLE
+ 
+-> pre - styled tables
+ 
+.table
+
+.table-bordered 
+
+.table-hover 
+
+.table-striped
+>> bootstrap 5 >> table-dark  
+ 
+...........................................
+ 
+FORMS
+ 
+VERTICAL 
+
+HORIZONTAL 
+
+INLINE
+ 
+ 
+form-group 
+
+form-control
