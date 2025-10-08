@@ -1,0 +1,16 @@
+@function double-size($size){
+    @return $size*2
+}
+ 
+.box{
+    width: double-size(50px);
+    height: double-size(50px);
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: deeppink;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ 

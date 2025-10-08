@@ -1,0 +1,36 @@
+//define color list
+$colors : primary blue , success green , danger red;
+ 
+//using @each
+ 
+@each $name , $color in $colors{
+    .btn-#{$name}{
+        background-color: $color;
+        color: white;
+   
+ 
+    // using @if
+    @if $name == primary{
+        font-weight: bold;
+        border: 2px solid darken($color, 10%);
+   
+    }
+}
+}
+ 
+//using @for
+@for $i from 1 through 3{
+    .btn-size-#{$i}{
+        font-size: 10px * $i;
+        padding : 5px * $i;
+    }
+}
+ 
+// using @while
+$i:1;
+@while $i <=3{
+    .radius-#{$i}{
+        border-radius: 2px * $i;
+    }
+    $i : $i + 1;
+}

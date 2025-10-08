@@ -1,0 +1,9 @@
+@import 'variable';
+ 
+footer{
+    background-color: darken($primary-color, 10%);
+    color: $text-color;
+    text-align: center;
+    padding: 10px;
+    font-family: $font-stack;
+}

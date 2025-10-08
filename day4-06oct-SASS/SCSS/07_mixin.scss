@@ -1,0 +1,21 @@
+@mixin button-style($bg-color, $text-color){
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ 
+.btn-primary{
+    @include button-style(#00008B,#FFFAF0 )
+}
+ 
+.btn-success{
+    @include button-style(#008000, #000000)
+}
+ 
+.btn-danger{
+    @include button-style(#FFD700, #000000)
+}

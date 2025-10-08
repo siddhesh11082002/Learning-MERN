@@ -1,0 +1,13 @@
+@import 'variable';
+ 
+header{
+    background-color:$primary-color ;
+    color: $text-color;
+    text-align: center;
+    padding: 20px;
+ 
+    h1{
+        font-family: $font-stack;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,29 @@
+
+1)
+D:\Accenture\accenture-stream-training\day5-dev-tools> cd webpack
+
+2)
+PS D:\Accenture\accenture-stream-training\day5-dev-tools\webpack> npm install -y
+npm error code ENOENT
+npm error syscall open
+npm error path D:\Accenture\accenture-stream-training\day5-dev-tools\webpack\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'D:\Accenture\accenture-stream-training\day5-dev-tools\webpack\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\asus\AppData\Local\npm-cache\_logs\2025-10-07T06_17_24_346Z-debug-0.log
+PS D:\Accenture\accenture-stream-training\day5-dev-tools\webpack> npm install webpack webpack-cli --save-dev
+
+added 119 packages in 18s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+3)  
+"dev" : "webpack --mode development",
+    "build" : "webpack --mode production"
+4)
+npm run dev
+
+5)
+npm install html-webpack-plugin --save-dev

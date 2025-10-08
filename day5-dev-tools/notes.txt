@@ -1,0 +1,70 @@
+WEBPACK
+ 
+-> static module bundler
+ 
+Entry : start building its dependency graph 
+
+        by default -> src/index.js
+ 
+Output : instruct webpack where to emit the bundles 
+
+        dist / main.js
+ 
+Loaders : webpack only understands js & json 
+
+convert them to valid modules
+ 
+Plugins : advance tasks which loaders cannot do
+ 
+Mode  : dev , prod
+ 
+npm init -y
+ 
+INSTALL WEBPACK
+ 
+npm install webpack webpack-cli --save-dev
+ 
+npm install html-webpack-plugin --save-dev  
+ 
+...................................................................
+ 
+CONTINOUS INTEGRATION
+ 
+-> SOFTWARE development practice where developers frequently integrate their code into a shared repo. 
+
+-> automatically tested & built 
+
+-> detect and fix issues in the dev process 
+
+-> maintain high quality
+ 
+developer writes code >> CI SERVER (Jenkins) detect the commit >> run automated test , check for code quality , security >>if pass , build is successful , if fail (feedback to fix the issues)
+ 
+CONTINOUS DELIVERY
+ 
+-> extension of CI by automating the deployment process 
+
+-> integration >> deployment (automate)
+
+-> deliver new features
+ 
+...........................................................
+
+JENKINS
+ 
+-> open source automation server uses CI and CD 
+
+-> automate building , testing and deploying
+ 
+Developer commits code >> Jenkins detect changes >> Build the project (compile , test , check quality )>> pass? jenkin can deploy / production server fail ? jenkins send notifications to the developers
+ 
+Vacation form >> details of the user 
+ 
+month , week , likes , dislikes 
+ 
+options >> vacations 
+ 
+book a flight , train 
+ 
+using HTML , SASS , JS  , BOOTSTRAP 
+ 

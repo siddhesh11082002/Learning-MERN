@@ -1,0 +1,23 @@
+header {
+  background-color: #ADFF2F;
+  color: #4B0082;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: rgb(152.0480769231, 251, 0);
+  color: #4B0082;
+  text-align: center;
+  padding: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  background: lightblue;
+}/*# sourceMappingURL=05_import.css.map */
